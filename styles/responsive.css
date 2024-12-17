@@ -29,6 +29,10 @@
     .filters_checkbox {
         width: 15rem !important;
     }
+
+    .www {
+        gap: 2rem;
+    }
 }
 
 /* =========================================================================================== */
@@ -52,6 +56,14 @@
 
     .fliters>div {
         width: 18rem;
+    }
+
+    .subscribe_newsletter_left {
+        width: 50%;
+    }
+
+    .website_logo {
+        width: 60rem;
     }
 }
 
@@ -118,6 +130,34 @@
     .order {
         display: none !important;
     }
+
+    .subscribe_newsletter_wrapper {
+        flex-direction: column;
+        row-gap: 4rem;
+    }
+
+    .subscribe_newsletter_right,
+    .subscribe_newsletter_left {
+        width: 100%;
+    }
+
+    .login_inputs_name,
+    .login_inputs_number {
+        width: 48%;
+    }
+
+    .footer_right {
+        width: 60rem;
+    }
+
+    .website_logo {
+        width: 47rem;
+    }
+
+    .footer_description {
+        font-size: 14px;
+        line-height: 24px;
+    }
 }
 
 
@@ -144,6 +184,30 @@
     .advance-search_box-bottom-filters>div {
         width: 20rem;
     }
+
+    .footer_right {
+        width: 100%;
+    }
+
+    .website_logo {
+        position: static;
+        border-bottom-right-radius: 7rem;
+        margin: auto;
+        width: 100%;
+    }
+
+    .footer_wrapper {
+        flex-direction: column;
+    }
+
+    .footer_description {
+        margin-top: 5rem;
+    }
+
+    .footer_left {
+        margin-bottom: 10rem;
+        width: 100%;
+    }
 }
 
 
@@ -159,6 +223,10 @@
     .recommended-item,
     .recommended-movies_slider {
         width: 13rem !important;
+    }
+
+    .recommended-movie {
+        margin-top: 4rem;
     }
 
     .recommended-item_cover img {
@@ -314,7 +382,46 @@
     .FA_name_movie {
         display: none;
     }
+
+    .subscribe_newsletter {
+        display: none;
+    }
+
+    .footer_description {
+        font-size: 12px;
+        line-height: 19px;
+        margin-top: 3rem;
+    }
+
+    .footer_left {
+        margin-top: 1rem;
+        z-index: 100;
+        margin-bottom: 2rem;
+        background-color: rgba(124, 124, 124, 0.144);
+        border-radius: 1rem;
+        padding: 0.5rem;
+    }
+
+    .shape1,
+    .shape2 {
+        display: none;
+    }
+
+    .footer_left h4 {
+        font-size: 1.6rem;
+    }
+
+    .footer_li {
+        padding-bottom: 4px;
+    }
+
+    .footer_li a {
+        font-size: 13px;
+        line-height: 2rem;
+    }
 }
+
+
 
 /* =========================================================================================== */
 
