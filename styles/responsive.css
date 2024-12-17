@@ -1,0 +1,321 @@
+@media (min-width: 1400px) {
+
+    .container {
+        width: 1300px;
+    }
+
+
+}
+
+
+
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 1400px) {
+    .header_search_box {
+        width: 25rem;
+    }
+
+    .btn {
+        width: 12rem;
+    }
+
+    .advance-search_box-bottom-filters {
+        justify-content: space-between;
+    }
+
+    .filters_checkbox {
+        width: 15rem !important;
+    }
+}
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 1200px) {
+    .desktop_ul {
+        gap: 1rem;
+    }
+
+    .header_search_box {
+        width: 20rem;
+    }
+
+    .btn {
+        width: 10rem;
+    }
+
+    .advance-search_box-bottom-filters {
+        column-gap: 0;
+    }
+
+    .fliters>div {
+        width: 18rem;
+    }
+}
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 992px) {
+    .header_search_box {
+        display: none;
+    }
+
+    .desktop_ul {
+        display: none;
+    }
+
+    .hero_section_right {
+        width: 70%;
+    }
+
+    .FA_name_movie {
+        text-align: center;
+
+    }
+
+    .hero_section_show_movie {
+        margin-bottom: 0;
+    }
+
+    .hero_section {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-pagination {
+        display: none !important;
+    }
+
+    .hero-prev-sliade,
+    .hero-next-sliade {
+        display: none !important;
+    }
+
+    .age_group_tab,
+    .order_group_tab {
+        display: block;
+    }
+
+    .search-movies_box {
+        width: 44rem;
+    }
+
+    .search-movies_page h2 {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .advance-search_box span {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .director,
+    .order {
+        display: none !important;
+    }
+}
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 768px) {
+    .hero_section_title {
+        font-size: 3rem;
+        line-height: 40.5px;
+    }
+
+    .movie_synopsis {
+        margin-top: 1rem;
+    }
+
+    .movie_description {
+        font-size: 1.5rem;
+    }
+
+    .hero_section_genre {
+        margin: 1rem 0;
+    }
+
+    .advance-search_box-bottom-filters>div {
+        width: 20rem;
+    }
+}
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width: 750px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 576px) {
+
+
+    /* Section 1 */
+    .recommended-item,
+    .recommended-movies_slider {
+        width: 13rem !important;
+    }
+
+    .recommended-item_cover img {
+        height: auto;
+    }
+
+    .search-movies {
+        display: none;
+    }
+
+    .recommended-item_name {
+        font-size: 1.4rem;
+    }
+
+    /* Section 2 */
+    .recommended-serial-item,
+    .recommended-serial_slider {
+        width: 13rem !important;
+    }
+
+    .recommended-item_cover img {
+        height: auto;
+    }
+
+    .search-movies {
+        display: none;
+    }
+
+    .recommended-item_name {
+        font-size: 1.4rem;
+    }
+
+
+    /* Section 3 */
+    .recommended-animation-item,
+    .recommended_animation_slider {
+        width: 13rem !important;
+    }
+
+    .recommended-animation-item_cover img {
+        height: auto;
+    }
+
+    .search-movies {
+        display: none;
+    }
+
+    .recommended-animation-item_name {
+        font-size: 1.4rem;
+    }
+
+    /* Section 4 */
+    .recommended-action-item,
+    .recommended-action-slider {
+        width: 13rem !important;
+    }
+
+    .recommended-action-item_cover img {
+        height: auto;
+    }
+
+    .search-movies {
+        display: none;
+    }
+
+    .recommended-animation-item_name {
+        font-size: 1.4rem;
+    }
+
+    /* Section 5 */
+    .recommended-drama-item,
+    .swiper-drma-sliders {
+        width: 13rem !important;
+    }
+
+    .recommended-drama-item_cover img {
+        height: auto;
+    }
+
+    .search-movies {
+        display: none;
+    }
+
+    .recommended-drama-item_name {
+        font-size: 1.4rem;
+    }
+
+    /* Section 6 */
+    .recommended-scary-item,
+    .swiper-scary-sliders {
+        width: 13rem !important;
+    }
+
+    .recommended-scary-item_cover img {
+        height: auto;
+    }
+
+    .search-movies {
+        display: none;
+    }
+
+    .recommended-drama-item_name {
+        font-size: 1.4rem;
+    }
+
+
+
+
+    .section-movie_header_title,
+    .section-movie_header_title,
+    .section-movie_header_title,
+    .section-movie_header_title {
+        font-size: 2rem;
+    }
+
+    .show_all_movie_mobile {
+        display: flex;
+    }
+}
+
+
+/* =========================================================================================== */
+
+@media screen and (max-width:450px) {
+    .movies_slider-wraaper {
+        height: 19rem;
+    }
+
+    .movies_slider-left {
+        width: 25rem;
+        margin-left: 1rem;
+        padding: 1rem 0;
+    }
+
+    .movies_slider-left_title {
+        font-weight: 100;
+        font-size: 1.8rem;
+    }
+
+    .movies_slider_synopsis {
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    .movies_slider_description {
+        font-size: 1rem;
+    }
+
+    .movies_slider__show_movie {
+        display: none;
+    }
+
+    .FA_name_movie {
+        display: none;
+    }
+}
+
+/* =========================================================================================== */
+
+@media screen and (max-width:400px) {}
