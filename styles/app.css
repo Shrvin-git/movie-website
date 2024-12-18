@@ -141,7 +141,6 @@ Recommended serial
 */
 .recommended-serial_slider {
   width: 23rem !important;
-  margin-left: 1rem !important;
 }
 
 .recommended-serial_slider_wrapper {
@@ -157,7 +156,7 @@ Recommended Animation
 */
 .recommended_animation_slider {
   width: 23rem !important;
-  margin-left: 1rem !important;
+  /*  */
 }
 
 .swiper-animation-wrapper {
@@ -173,7 +172,7 @@ Recommended Action Movies
 
 .recommended-action-slider {
   width: 23rem !important;
-  margin-left: 1rem !important;
+  /*  */
 }
 
 .swiper-wrapper-action {
@@ -186,9 +185,12 @@ Recommended Drama Movies
 ===============
 */
 
+/*  */
+
+
 .swiper-drma-sliders {
   width: 23rem !important;
-  margin-left: 1rem !important;
+  /*  */
 }
 
 .swiper-drama-wrapper {
@@ -198,7 +200,7 @@ Recommended Drama Movies
 
 .swiper-scary-sliders {
   width: 23rem !important;
-  margin-left: 1rem !important;
+  /*  */
 }
 
 /* 
@@ -1103,7 +1105,14 @@ Section: Movies Slider
   display: flex;
   flex-direction: row-reverse;
 }
-
+.movies_slider-wraaper2{
+  background-image: url(../img/Peaky\ Blinders\ hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+}
 .movies_slider-left {
   width: 25%;
   text-align: right;
@@ -1165,7 +1174,11 @@ Section: Movies Slider
 
 }
 
-
+.movies_slider_metha p span {
+  color: var(--yellow);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
 
 .movies_slider_score,
 .movies_slider_time,
@@ -1174,7 +1187,6 @@ Section: Movies Slider
   align-items: center;
   justify-content: center;
   margin-top: 1rem;
-
   gap: 3rem;
 }
 
@@ -2021,7 +2033,7 @@ Section : Newsletter
   width: 100%;
   height: 8rem;
   z-index: 100;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   border-top-left-radius: 5px;
@@ -2042,4 +2054,3 @@ Section : Newsletter
   margin-top: -1rem;
   background-color: var(--primery-color);
 }
-
