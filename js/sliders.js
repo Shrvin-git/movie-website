@@ -13,8 +13,6 @@ const swiperHeafer = new Swiper('.swiper_hero', {
     },
 
 });
-
-
 const swiperRec = new Swiper('.swiper_recommended', {
 
 
@@ -59,6 +57,12 @@ const swiperRec = new Swiper('.swiper_recommended', {
 
 });
 const swiperMovies = new Swiper('.swiper_serial', {
+
+    autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+    },
+
     breakpoints: {
         400: {
             slidesPerView: 'auto',
@@ -88,19 +92,10 @@ const swiperMovies = new Swiper('.swiper_serial', {
         },
     },
     loop: true,
-    autoplay: {
-        delay: 3500,
-        disableOnInteraction: false,
-    },
-    slidesPerView: 5,
-    spaceBetween: 30,
-
-    // Navigation arrows
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next_recommended_movie',
+        prevEl: '.swiper-button-prev_recommended_movie',
     },
-
 
 });
 const swiper = new Swiper('.one-movie-slider', {
@@ -306,11 +301,11 @@ const swiperMoviesScary = new Swiper('.swiper-scary', {
             spaceBetween: 10,
         },
         1200: {
-            slidesPerView: 'auto',
+            slidesPerView: 5,
             spaceBetween: 63,
         },
         1400: {
-            slidesPerView: 'auto',
+            slidesPerView: 5,
             spaceBetween: 30,
         },
     },
@@ -350,11 +345,11 @@ const swiperMoviesComedy = new Swiper('.swiper-comedy-movie', {
             spaceBetween: 10,
         },
         1200: {
-            slidesPerView: 'auto',
+            slidesPerView: 4,
             spaceBetween: 63,
         },
         1400: {
-            slidesPerView: 'auto',
+            slidesPerView: 5,
             spaceBetween: 30,
         },
     },
