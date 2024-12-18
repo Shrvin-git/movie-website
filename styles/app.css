@@ -599,6 +599,12 @@ Section: Seach Box
   gap: 1rem;
   color: #0E9EEF;
   font-weight: 600;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.show_all_movie_mobile:hover {
+  text-shadow: 0 0 15px #13a5fae3;
 }
 
 .main {}
@@ -1105,7 +1111,8 @@ Section: Movies Slider
   display: flex;
   flex-direction: row-reverse;
 }
-.movies_slider-wraaper2{
+
+.movies_slider-wraaper2 {
   background-image: url(../img/Peaky\ Blinders\ hero.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -1113,6 +1120,7 @@ Section: Movies Slider
   display: flex;
   flex-direction: row-reverse;
 }
+
 .movies_slider-left {
   width: 25%;
   text-align: right;
