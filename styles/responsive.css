@@ -292,6 +292,29 @@
 /* =========================================================================================== */
 @media screen and (max-width: 576px) {
 
+    .hero_section_title {
+        font-size: 2rem;
+        line-height: 10.5px;
+    }
+
+    .hero_section {
+        padding-top: 5.5rem;
+    }
+
+    .movie_synopsis {
+        margin: 2rem 0 0.4rem 0;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 2.1rem;
+    }
+
+    .movie_description {
+        font-size: 14px;
+    }
+
+    .hero_section_genre {
+        margin-top: 0;
+    }
 
     /* Section 1 */
     .recommended-item,
@@ -419,9 +442,11 @@
     .show_all_movie_mobile {
         display: flex;
     }
-.show_all_movie{
-    margin-top: 1.5rem;
-}
+
+    .show_all_movie {
+        margin-top: 1.5rem;
+    }
+
     .movies_slider_score {
         margin-top: 3px
     }
@@ -431,6 +456,92 @@
 /* =========================================================================================== */
 
 @media screen and (max-width:450px) {
+
+    .hero_section_title {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+
+    .movie_synopsis {
+        font-size: 16px;
+        line-height: 1.1rem;
+    }
+
+    .movie_description {
+        font-size: 12px;
+    }
+
+    .genre {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 6px;
+    }
+
+    .genre_title {
+        font-size: 13px;
+    }
+
+    .hero_section_movie_score {
+        gap: 2rem;
+    }
+
+    .hero_section_movie_time span,
+    .hero_section_movie_metha p {
+        font-size: 13px;
+    }
+
+    .hero_section_movie_metha p span {
+        font-size: 15px;
+    }
+
+    .hero_section_show_movie {
+        width: 55%;
+        height: 3.5rem;
+        font-size: 10px;
+        margin-top: 1rem;
+    }
+
+
+
+
+
+    .recommended-item_name,
+    .recommended-action-item_name,
+    .recommended-animation-item_name,
+    .recommended-drama-item_name,
+    .recommended-scary-item_name {
+        font-size: 12px;
+    }
+
+    .hero_section_movie_time svg,
+    .hero_section_movie_metha svg {
+        width: 18px;
+    }
+
+    .recommended-action-item_info img,
+    .recommended-animation-item_info img,
+    .recommended-item_info img,
+    .recommended-drama-item_info img,
+    .recommended-scary-item_info img {
+        width: 12px;
+    }
+
+    .recommended-scary-item_info_metha p,
+    .recommended-drama-item_info_metha p,
+    .recommended-action-item_info_metha p,
+    .recommended-item_info_metha p,
+    .recommended-animation-item_info_metha p,
+    .recommended-item_info_time span,
+    .recommended-animation-item_info_time span,
+    .recommended-action-item_info_time span,
+    .recommended-drama-item_info_time span,
+    .recommended-scary-item_info_time span {
+        font-size: 8px;
+    }
+
+
+
+
     .movies_slider-wraaper {
         height: 19rem;
     }
@@ -491,7 +602,7 @@
     .footer_left {
         margin-top: 1rem;
         z-index: 100;
-        margin-bottom: 2rem;
+        margin-bottom: 10rem;
         background-color: rgba(124, 124, 124, 0.144);
         border-radius: 1rem;
         padding: 0.5rem;
