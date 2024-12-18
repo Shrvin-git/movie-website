@@ -158,6 +158,48 @@
         font-size: 14px;
         line-height: 24px;
     }
+
+    .menu_mobile {
+        display: flex;
+    }
+
+    .movies_slider-wraaper {
+        height: 32rem;
+    }
+
+    .movies_slider-left {
+        width: 45%;
+    }
+
+    .movies_slider-left_title {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 10.5px;
+    }
+
+    .movies_slider_synopsis {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20.25px;
+    }
+
+    .movies_slider_description {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16.75px;
+    }
+
+    .movies_slider_genre1 {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 25.25px;
+    }
+
+    .swiper-pagination_slider,
+    .swiper-button-prev-one-movies-slider,
+    .swiper-button-next-one-movies-slider {
+        display: none !important;
+    }
 }
 
 
@@ -183,6 +225,38 @@
 
     .advance-search_box-bottom-filters>div {
         width: 20rem;
+    }
+
+    .movies_slider-wraaper {
+        height: 24rem;
+    }
+
+    .movies_slider__show_movie {
+        display: none;
+    }
+
+    .movies_slider-left_title {
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    .movies_slider_synopsis {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15.25px;
+    }
+
+    .movies_slider_genre {
+        margin-top: 0;
+    }
+
+    .movies_slider_score {
+        margin-top: .5rem;
+    }
+
+    .FA_name_movie {
+        display: none;
     }
 
     .footer_right {
@@ -345,6 +419,12 @@
     .show_all_movie_mobile {
         display: flex;
     }
+.show_all_movie{
+    margin-top: 1.5rem;
+}
+    .movies_slider_score {
+        margin-top: 3px
+    }
 }
 
 
@@ -356,7 +436,7 @@
     }
 
     .movies_slider-left {
-        width: 25rem;
+        width: 20rem;
         margin-left: 1rem;
         padding: 1rem 0;
     }
@@ -381,6 +461,21 @@
 
     .FA_name_movie {
         display: none;
+    }
+
+    .movies_slider_time span,
+    .movies_slider_metha p {
+        font-size: 14px;
+    }
+
+    .movies_slider_metha p span {
+        font-size: 15px;
+    }
+
+    .movies_slider_time svg,
+    .movies_slider_metha svg {
+        width: 15px;
+        height: 15px;
     }
 
     .subscribe_newsletter {
