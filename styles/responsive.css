@@ -79,8 +79,22 @@
         display: none;
     }
 
+    .menu_mobile_header {
+        display: flex;
+    }
+
+    .header_buttons_bobile {
+        display: flex;
+        gap: 2rem;
+    }
+
     .hero_section_right {
         width: 70%;
+    }
+
+    .header_buttons,
+    .logo-site {
+        display: none;
     }
 
     .FA_name_movie {
@@ -199,6 +213,34 @@
     .swiper-button-prev-one-movies-slider,
     .swiper-button-next-one-movies-slider {
         display: none !important;
+    }
+
+    .swiper-slide {
+        margin-left: 1rem !important;
+    }
+
+    .recommended_serial_img,
+    .recommended_movie_img,
+    .recommended_animation_img,
+    .recommended_action_img,
+    .recommended_drama_img,
+    .recommended_scary_img {
+        height: auto !important;
+    }
+
+    .swiper-scary-sliders,
+    .swiper-drma-sliders,
+    .recommended-action-slider,
+    .recommended_animation_slider,
+    .recommended-serial_slider,
+    .recommended-movies_slider,
+    .recommended-item,
+    .recommended-serial-item,
+    .recommended-animation-item,
+    .recommended-action-item,
+    .recommended-drama-item,
+    .recommended-scary-item {
+        width: 15rem !important;
     }
 }
 
@@ -444,7 +486,7 @@
     }
 
     .show_all_movie {
-        margin-top: 1.5rem;
+        display: none;
     }
 
     .movies_slider_score {
@@ -466,7 +508,12 @@
         font-size: 16px;
         line-height: 1.1rem;
     }
-
+    .header_buttons_bobile{
+        gap: 1rem;
+    }
+    .btn2 {
+        width: 10rem;
+    }
     .movie_description {
         font-size: 12px;
     }
