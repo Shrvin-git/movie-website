@@ -73,6 +73,8 @@ let recDramaWrapper = document.querySelector('.swiper-drama-wrapper')
 let recComedyWrapper = document.querySelector('.swiper-comedy-wrapper')
 let recScaryyWrapper = document.querySelector('.swiper-scary-wrapper')
 let heroSlidersWrapper = document.querySelector('.hero_section_wrapper')
+let menuMobileBtn = document.querySelector('.menu_mobile_toggle')
+let menuMobile = document.querySelector('.menu_mobile_box')
 
 
 
@@ -110,6 +112,7 @@ recScarylElements.forEach(function (scary) {
         '<div class="swiper-slide swiper-scary-sliders swiper-slide-active" role="group" aria-label="1 / 7" data-swiper-slide-index="0" style="width: 230px; margin-left: 30px;"><div class="recommended-scary-item"><div class="recommended-scary-item_cover"><img class="recommended_scary_img" src="' + scary.coverMovie + '" alt=""></div><div class="recommended-scary-item_info"><div class="recommended-scary-item_info_time"><div style="display: flex;align-items: center;"><img src="img/logo/icon_time.png" alt=""></div><span>' + scary.durationMovie + '</span></div><div class="recommended-scary-item_info_metha"><div style="display: flex;align-items: center;"><img src="img/logo/icon_meta.png" alt=""></div><p>' + scary.score + '</p></div></div><span class="recommended-scary-item_name">' + scary.nameMovie + '</span></div></div>'
     )
 })
+
 // heroSectionMovies.forEach(function (items) {
 //     heroSlidersWrapper.insertAdjacentHTML('beforeend',
 //         '<div class="swiper-slide swiper-hero-slide swiper-slide-active" role="group" aria-label="4 / 4" data-swiper-slide-index="3" style="width: 1270px;"><div class= "hero_section"> <div class="hero_section_right"><h1 class="hero_section_title"> ' + items.movieName + ' </h1><span class="FA_name_movie">رزیدنت اویل </span><h2 class="movie_synopsis"> خلاصه داستان </h2><p class="movie_description"> ' + items.movieDescription + ' </p><div class="hero_section_genre"><span class="genre">ژانر</span><span class="genre_title"> ' + items.genre + ' </span></div><div class="hero_section_movie_score"><div class="hero_section_movie_time"> <span>' + items.durationMovie + ' Hours</span> </div><div class="hero_section_movie_metha"><p><span>' + items.score + '</span>/10</p></div></div><button class="hero_section_show_movie"> مشاهده و دانلود با تمام کیفیت ها </button></div></ ></div > '
@@ -123,6 +126,10 @@ recScarylElements.forEach(function (scary) {
 
 
 
+menuMobileBtn.addEventListener('click', function () {
+    this.classList.toggle('nav__toggle-icon--open');
+    menuMobile.classList.toggle('menu_mobile_clsoe')
+})
 
 showAdvanceSearchBoxBtn.addEventListener('click', function () {
     advanceSearchBoxElem.classList.toggle('advance-search_box-toggle')
