@@ -15,7 +15,7 @@ const swiperHeafer = new Swiper('.swiper_hero', {
 });
 const swiperRec = new Swiper('.swiper_recommended', {
 
-
+    freeMode: true,
     autoplay: {
         delay: 3500,
         disableOnInteraction: false,
@@ -57,7 +57,7 @@ const swiperRec = new Swiper('.swiper_recommended', {
 
 });
 const swiperMovies = new Swiper('.swiper_serial', {
-
+    freeMode: true,
     autoplay: {
         delay: 3500,
         disableOnInteraction: false,
@@ -146,6 +146,7 @@ const swiper = new Swiper('.one-movie-slider', {
     },
 });
 const swiperAnimation = new Swiper('.swiper-animation', {
+    freeMode: true,
     breakpoints: {
         400: {
             slidesPerView: 'auto',
@@ -191,6 +192,7 @@ const swiperAnimation = new Swiper('.swiper-animation', {
 
 });
 const swiperMoviesAction = new Swiper('.swiper-action', {
+    freeMode: true,
     breakpoints: {
         400: {
             slidesPerView: 'auto',
@@ -236,6 +238,7 @@ const swiperMoviesAction = new Swiper('.swiper-action', {
 
 });
 const swiperMoviesDrama = new Swiper('.swiper-drama', {
+    freeMode: true,
     breakpoints: {
         400: {
             slidesPerView: 'auto',
@@ -281,6 +284,7 @@ const swiperMoviesDrama = new Swiper('.swiper-drama', {
 
 });
 const swiperMoviesScary = new Swiper('.swiper-scary', {
+    freeMode: true,
     breakpoints: {
         400: {
             slidesPerView: 'auto',
@@ -325,6 +329,7 @@ const swiperMoviesScary = new Swiper('.swiper-scary', {
 
 });
 const swiperMoviesComedy = new Swiper('.swiper-comedy-movie', {
+    freeMode: true,
     breakpoints: {
         400: {
             slidesPerView: 'auto',
